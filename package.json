@@ -1,0 +1,34 @@
+{
+  "name": "mernauth",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Mern Authetication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0rigin-c0de/mernauth.git"
+  },
+  "keywords": [],
+  "author": "Shunnu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0rigin-c0de/mernauth/issues"
+  },
+  "homepage": "https://github.com/0rigin-c0de/mernauth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
