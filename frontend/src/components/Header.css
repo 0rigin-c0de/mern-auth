@@ -1,0 +1,68 @@
+header {
+  background-color: #333;
+  padding: 10px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.nav-item.active .nav-link {
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.dropdown-menu {
+  background-color: #333;
+  border: none;
+}
+
+.dropdown-item {
+  color: #fff;
+  font-size: 16px;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-link.signin,
+.nav-link.signup {
+  font-size: 16px;
+  color: #fff;
+}
+
+.nav-link.signin + .nav-link.signup {
+  margin-left: 10px;
+}
+
+.navbar-brand svg,
+.nav-link svg {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+}
