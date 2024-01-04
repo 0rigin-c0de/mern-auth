@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon backend/server.js"
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
